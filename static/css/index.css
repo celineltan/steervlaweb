@@ -40,6 +40,22 @@ body {
   color: #363636;
 }
 
+.video-section-blurb {
+  max-width: 46rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #363636;
+  text-align: center;
+}
+
+.video-section-blurb--rollouts {
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
+}
+
 
 .publication-title {
   font-family: 'Google Sans', sans-serif;
