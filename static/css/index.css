@@ -40,20 +40,32 @@ body {
   color: #363636;
 }
 
-.video-section-blurb {
-  max-width: 46rem;
+.video-section-intro-panel {
+  position: relative;
+  z-index: 1;
+  max-width: 48rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.video-section-intro-panel p {
+  margin: 0;
   font-size: 1rem;
   line-height: 1.5;
   color: #363636;
   text-align: center;
 }
 
-.video-section-blurb--rollouts {
+.video-section-intro-panel--rollouts {
   margin-top: 2rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.spotlight-videos video {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 
